@@ -1,0 +1,163 @@
+.page{
+  width:1800px;
+  margin-right: auto;
+  margin-left:auto;
+  background:rgb(107, 142, 35, 0.8);
+ }
+.header{
+  width: 1800px;
+  background:#6B8E23;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+a{
+  color:#FFD700;
+  font-size: 80px;
+  text-decoration:none;
+ font-family: 'Source Serif Pro', serif;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:0;
+  margin-right:0;
+}
+
+#flex-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:2000px;
+}
+div{
+/* border: 4px solid black; */
+}
+.picture{
+  width:850px;
+  height: 1000px;
+  background-image:url("képek/virág.jpg");
+  background-repeat: no-repeat;
+  background-position:left top;
+  background-size:80%;
+  opacity: 0.9;
+  font-family: 'Source Serif Pro', serif;
+  color:#FFD700;
+}
+#hi{
+  font-size: 80px;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+#andrea{
+  font-size: 140px;
+  margin-top:0;
+}
+#vagyok{
+  font-size: 80px;
+}
+.picture #hi{
+  position: relative;
+  top:540px;
+  left: 30px;
+  margin-right:0;
+}
+.picture #andrea{
+  position: relative;
+  top:530px;
+  left: 200px;
+  margin-right:0;
+  line-height:140px;
+}
+.picture #vagyok{
+  position: relative;
+  top: 430px;
+  left: 560px;
+}
+.p1{
+  font-family: 'Spectral', serif;
+  font-size:35px;
+  width:850px;
+  height: 800px;
+  text-align:left;
+  color:yellow;
+  line-height:50px;
+  position:relative;
+  top:50px;
+  left: -40px;
+}
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+}
+.p1 #vagyok{
+ 
+}
+blockquote{
+ font-family: 'Source Serif Pro', serif;
+  color:#FFD700;
+  font-size:90px;
+  height:600px;
+  width: 600px;
+  padding:100px 5px 5px 80px;
+  background:#6B8E23;
+  text-align:left;
+  line-height:120px;
+  position:relative;
+  top: 70px;
+  left:-40px;
+}
+blockquote::before {
+  content: '“';
+  font-size: 250px;
+  position: absolute;
+  left: 0px;
+  top:60px;
+}
+.p2{
+  font-family: 'Spectral', serif;
+  font-size:40px;
+  width:850px;
+  height: 1500px;
+  text-align:left;
+  color:yellow;
+  line-height:50px;
+  position:relative;
+  top:200px;
+  left:30px;
+}
+.notable{
+  font-size:50px;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+}
+h4{
+  font-size:40px;
+}
+.smal{
+    font-size:30px;
+  }
+.sith{
+  font-size: 35px;
+}
+h5{
+  font-family: 'Merriweather', serif;
+  font-size:24px;
+}
+.ul2{
+  list-style-type: square;
+  list-style-position:outside;
+  font-size:28px;
+  line-height:40px;
+}
+
+.ul3{
+  list-style-type: square;
+  list-style-position:outside;
+  font-size:23px;
+  line-height:40px;
+
+}
